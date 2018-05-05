@@ -1,0 +1,3 @@
+[console_scripts]
+unihan-etl = unihan_etl.__main__:run
+
