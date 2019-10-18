@@ -39,6 +39,7 @@ else:
     picklecache = dict()
     pickle.dump(picklecache, open('c8000.p', 'wb'))
 
+# this API key is disabled
 service = SpeechToTextV1(
     url='https://stream.watsonplatform.net/speech-to-text/api',
     iam_apikey='kWY0QEEra5aA9kx_tyxF3Bnz3FXYwnW3Am7K7vZp4bRK')
